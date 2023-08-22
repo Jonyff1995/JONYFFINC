@@ -17,15 +17,25 @@ collections_config:
     path: content/posts
     output: true
     icon: notes
+    _editables: {}
+    _inputs: {}
+    _select_data: {}
+    _structures: {}
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
+    schemas: {}
 _inputs:
   Install:
     type: html
     cascade: true
 _select_data: {}
-_structures: {}
+_structures:
+  Home:
+    style: modal
+    id_key: Es_type
+    values:
+      - default: true
 _editables: {}
 data_config: {}
 timezone: Etc/UTC
