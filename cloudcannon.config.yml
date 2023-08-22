@@ -20,7 +20,10 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
-_inputs: {}
+_inputs:
+  Install:
+    type: html
+    cascade: true
 _select_data: {}
 _structures: {}
 _editables: {}
